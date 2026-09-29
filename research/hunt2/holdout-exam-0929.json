@@ -1,0 +1,321 @@
+{
+  "test": "CONFIRMATORY prereg-0929",
+  "prereg": "research/hunt2/prereg-0929.md",
+  "status": "done",
+  "k": 2,
+  "alpha": 0.025,
+  "runner": {
+    "file": "scripts/research/confirm-hunt-2026-09-29.mjs",
+    "sha256": "6be7c80cd427f285de3203378e9c2a7ac80d9821c8459b3efbc6547a7522a954",
+    "commit": "2177423b1cfa25afb594fa371dfbea7885aced14"
+  },
+  "harness": {
+    "sha256": "8da0f9bf1d2284b55a3b30c8693f1310afe6290809889392989e829e74f3946e",
+    "data": "7439f80136985e388c943fbbd5adcf3fe795c588b2dfce40aff9a30d2e71ec3d",
+    "patchedCopySha256": "d87556067b09b65cc29a3f256567a8df3bb3ac4ef6688b7d040bc9b6a14b3916"
+  },
+  "selfCheck": {
+    "r25-crypto-btcbeta-low": {
+      "cagr": 1.0168737636512386,
+      "evaluateCagr": 1.0168737636512386,
+      "bhCagr": 0.6276418373409731,
+      "p": 0.007599848003039939,
+      "returnDays": 2766,
+      "period": {
+        "start": "2017-08-18",
+        "end": "2025-03-14",
+        "startTime": 1502928000,
+        "endTime": 1741910400,
+        "returnDays": 2766
+      }
+    },
+    "dv-ctrl-r25-crypto-btcbeta-low": {
+      "cagr": 0.3500518677560356,
+      "evaluateCagr": 0.3500518677560356,
+      "bhCagr": 0.6276418373409731,
+      "p": 1,
+      "returnDays": 2766,
+      "period": {
+        "start": "2017-08-18",
+        "end": "2025-03-14",
+        "startTime": 1502928000,
+        "endTime": 1741910400,
+        "returnDays": 2766
+      }
+    },
+    "r27-crypto-scaled-trend": {
+      "cagr": 0.8884987382740315,
+      "evaluateCagr": 0.8884987382740315,
+      "bhCagr": 0.6276418373409731,
+      "p": 0.1774112943528236,
+      "returnDays": 2766,
+      "period": {
+        "start": "2017-08-18",
+        "end": "2025-03-14",
+        "startTime": 1502928000,
+        "endTime": 1741910400,
+        "returnDays": 2766
+      }
+    },
+    "dv-ctrl-r27-crypto-scaled-trend": {
+      "cagr": 0.23855884495751978,
+      "evaluateCagr": 0.23855884495751978,
+      "bhCagr": 0.6276418373409731,
+      "p": 1,
+      "returnDays": 2766,
+      "period": {
+        "start": "2017-08-18",
+        "end": "2025-03-14",
+        "startTime": 1502928000,
+        "endTime": 1741910400,
+        "returnDays": 2766
+      }
+    }
+  },
+  "boundary": "2025-03-15T00:00:00.000Z",
+  "ranAt": "2026-09-29T01:40:09.799Z",
+  "data": {
+    "vendor": "data.binance.vision spot 1d klines",
+    "file": "research/hunt2/holdout-exam-0929.data.json.gz",
+    "sha256": "f6974eb8f66ab597ebe028b2d17702885b782dfc47d49b7f850e7ebb02c75e1e",
+    "completedBarsOnly": "bar open + 1 day <= 2026-09-29T01:40:09.000Z",
+    "preBoundary": "discovery cache via loadBars() (identical to discovery inputs)",
+    "overlap": {
+      "BTCUSDT": {
+        "cacheDays": 42,
+        "matched": 42,
+        "maxRelCloseDiff": 0
+      },
+      "BNBUSDT": {
+        "cacheDays": 42,
+        "matched": 42,
+        "maxRelCloseDiff": 0
+      },
+      "XRPUSDT": {
+        "cacheDays": 42,
+        "matched": 42,
+        "maxRelCloseDiff": 0
+      },
+      "ADAUSDT": {
+        "cacheDays": 42,
+        "matched": 42,
+        "maxRelCloseDiff": 0
+      },
+      "DOGEUSDT": {
+        "cacheDays": 42,
+        "matched": 42,
+        "maxRelCloseDiff": 0
+      },
+      "LTCUSDT": {
+        "cacheDays": 42,
+        "matched": 42,
+        "maxRelCloseDiff": 0
+      },
+      "LINKUSDT": {
+        "cacheDays": 42,
+        "matched": 42,
+        "maxRelCloseDiff": 0
+      },
+      "TRXUSDT": {
+        "cacheDays": 42,
+        "matched": 42,
+        "maxRelCloseDiff": 0
+      },
+      "BCHUSDT": {
+        "cacheDays": 42,
+        "matched": 42,
+        "maxRelCloseDiff": 0
+      },
+      "ATOMUSDT": {
+        "cacheDays": 42,
+        "matched": 42,
+        "maxRelCloseDiff": 0
+      },
+      "ETCUSDT": {
+        "cacheDays": 42,
+        "matched": 42,
+        "maxRelCloseDiff": 0
+      },
+      "DASHUSDT": {
+        "cacheDays": 42,
+        "matched": 42,
+        "maxRelCloseDiff": 0
+      },
+      "ZECUSDT": {
+        "cacheDays": 42,
+        "matched": 42,
+        "maxRelCloseDiff": 0
+      },
+      "AVAXUSDT": {
+        "cacheDays": 42,
+        "matched": 42,
+        "maxRelCloseDiff": 0
+      },
+      "UNIUSDT": {
+        "cacheDays": 42,
+        "matched": 42,
+        "maxRelCloseDiff": 0
+      },
+      "NEARUSDT": {
+        "cacheDays": 42,
+        "matched": 42,
+        "maxRelCloseDiff": 0
+      },
+      "AAVEUSDT": {
+        "cacheDays": 42,
+        "matched": 42,
+        "maxRelCloseDiff": 0
+      },
+      "HBARUSDT": {
+        "cacheDays": 42,
+        "matched": 42,
+        "maxRelCloseDiff": 0
+      }
+    }
+  },
+  "universe": {
+    "requested": 18,
+    "kept": 18,
+    "dropped": [],
+    "names": [
+      "BTCUSDT",
+      "BNBUSDT",
+      "XRPUSDT",
+      "ADAUSDT",
+      "DOGEUSDT",
+      "LTCUSDT",
+      "LINKUSDT",
+      "TRXUSDT",
+      "BCHUSDT",
+      "ATOMUSDT",
+      "ETCUSDT",
+      "DASHUSDT",
+      "ZECUSDT",
+      "AVAXUSDT",
+      "UNIUSDT",
+      "NEARUSDT",
+      "AAVEUSDT",
+      "HBARUSDT"
+    ]
+  },
+  "candidates": [
+    {
+      "id": "r25-crypto-btcbeta-low",
+      "sourceSha256": "7557c69f126a50147b072083ad5cfe2e7f3c2b4a3bea8d160183bacae6fbec91",
+      "control": "dv-ctrl-r25-crypto-btcbeta-low",
+      "controlSha256": "a27354b796977863263a0face9cdc908b5d680b8921f4587a7c0d6eb5499a2d5",
+      "strategy": {
+        "cagr": 0.358835310496175,
+        "bhCagr": 0.24367340572706642,
+        "excessAnnual": 0.11516190476910859,
+        "p": 0.32083958020989506,
+        "bootstrap": {
+          "iters": 2000,
+          "blockLen": 8,
+          "floor": 0.0004997501249375312,
+          "effectiveN": 71,
+          "seed": 42
+        },
+        "sharpe": 0.8582700348732688,
+        "bhSharpe": 0.6617489829324186,
+        "pSharpe": 0.27936031984008,
+        "maxDD": 0.4675785077073331,
+        "bhMaxDD": 0.5270773066500016,
+        "totalReturn": 0.6028765755177734,
+        "bhTotalReturn": 0.3986917678452453,
+        "days": 562,
+        "years": 1.538672142368241,
+        "firstDay": "2025-03-15",
+        "lastDay": "2026-09-27",
+        "rebalances": 18
+      },
+      "dumbControl": {
+        "cagr": -0.09729763899603616,
+        "bhCagr": 0.24367340572706642,
+        "excessAnnual": -0.3409710447231026,
+        "p": 1,
+        "bootstrap": {
+          "iters": 2000,
+          "blockLen": 8,
+          "floor": 0.0004997501249375312,
+          "effectiveN": 71,
+          "seed": 42
+        },
+        "sharpe": 0.21158043447035055,
+        "bhSharpe": 0.6617489829324186,
+        "pSharpe": 1,
+        "maxDD": 0.6177183847553851,
+        "bhMaxDD": 0.5270773066500016,
+        "totalReturn": -0.14572503141433513,
+        "bhTotalReturn": 0.3986917678452453,
+        "days": 562,
+        "years": 1.538672142368241,
+        "firstDay": "2025-03-15",
+        "lastDay": "2026-09-27",
+        "rebalances": 18,
+        "strategyBeatsControl": true
+      },
+      "verdict": "NOT CONFIRMED: not confirmed, underpowered",
+      "rule_text": "CONFIRMED iff excess/yr > 0 AND one-sided p < 0.025 AND excess/yr above dv-ctrl-r25-crypto-btcbeta-low on the same data and engine; INCONCLUSIVE if < 250 scored days or < 12 rebalances. A miss with excess > 0 and p >= alpha is \"not confirmed, underpowered\", never \"falsified\"."
+    },
+    {
+      "id": "r27-crypto-scaled-trend",
+      "sourceSha256": "2940d6945243df19fcc77f10bfd4f9e74c9124caeb4e2e1ac4ff6897bd1f7f9d",
+      "control": "dv-ctrl-r27-crypto-scaled-trend",
+      "controlSha256": "1ab5a10e883e2c28c2faf9868a575e20cfd708c9c84fd899f95d25e08e6da8c9",
+      "strategy": {
+        "cagr": 0.1750218295597643,
+        "bhCagr": 0.24367340572706642,
+        "excessAnnual": -0.06865157616730211,
+        "p": 1,
+        "bootstrap": {
+          "iters": 2000,
+          "blockLen": 8,
+          "floor": 0.0004997501249375312,
+          "effectiveN": 71,
+          "seed": 42
+        },
+        "sharpe": 0.6684844795410788,
+        "bhSharpe": 0.6617489829324186,
+        "pSharpe": 0.47226386806596704,
+        "maxDD": 0.2631788309082991,
+        "bhMaxDD": 0.5270773066500016,
+        "totalReturn": 0.2816744561349811,
+        "bhTotalReturn": 0.3986917678452453,
+        "days": 562,
+        "years": 1.538672142368241,
+        "firstDay": "2025-03-15",
+        "lastDay": "2026-09-27",
+        "rebalances": 562
+      },
+      "dumbControl": {
+        "cagr": -0.04533467742928643,
+        "bhCagr": 0.24367340572706642,
+        "excessAnnual": -0.28900808315635285,
+        "p": 1,
+        "bootstrap": {
+          "iters": 2000,
+          "blockLen": 8,
+          "floor": 0.0004997501249375312,
+          "effectiveN": 71,
+          "seed": 42
+        },
+        "sharpe": 0.03649665782559584,
+        "bhSharpe": 0.6617489829324186,
+        "pSharpe": 1,
+        "maxDD": 0.4137003721654644,
+        "bhMaxDD": 0.5270773066500016,
+        "totalReturn": -0.06889743745054999,
+        "bhTotalReturn": 0.3986917678452453,
+        "days": 562,
+        "years": 1.538672142368241,
+        "firstDay": "2025-03-15",
+        "lastDay": "2026-09-27",
+        "rebalances": 562,
+        "strategyBeatsControl": true
+      },
+      "verdict": "NOT CONFIRMED",
+      "rule_text": "CONFIRMED iff excess/yr > 0 AND one-sided p < 0.025 AND excess/yr above dv-ctrl-r27-crypto-scaled-trend on the same data and engine; INCONCLUSIVE if < 250 scored days or < 12 rebalances. A miss with excess > 0 and p >= alpha is \"not confirmed, underpowered\", never \"falsified\"."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+ "id": "r25-qqq-agg-volmanaged",
+ "family": "volatility",
+ "mode": "portfolio",
+ "assets": [
+  "QQQ",
+  "AGG"
+ ],
+ "ledgered": {
+  "excess": 0.05833704554210395,
+  "cagr": 0.12765212591521902,
+  "sharpe": 0.8184331301821921,
+  "maxDD": 0.41383698188900253,
+  "bhCagr": 0.06931508037311507,
+  "bhSharpe": 0.6604939944582008,
+  "trades": 105,
+  "rebalances": 242,
+  "exposure": 0.9962605786262547,
+  "halves": [
+   0.05921075891941663,
+   0.057447035660229906
+  ]
+ },
+ "baseline": {
+  "ok": true,
+  "excess": 0.05833704554210395,
+  "cagr": 0.12765212591521902,
+  "sharpe": 0.8184331301821921,
+  "maxDD": 0.41383698188900253,
+  "bhCagr": 0.06931508037311507,
+  "bhSharpe": 0.6604939944582008,
+  "trades": 105,
+  "exposure": 0.9962605786262547,
+  "n": 2
+ },
+ "replicaMatch": true,
+ "stats": {
+  "meanNames": 1.3305785123966942,
+  "meanGross": 1,
+  "invested": 242,
+  "events": 242
+ },
+ "exposureCheck": {
+  "e": 0.9962605786262547,
+  "scaledBhCagr": 0.06907160612877483,
+  "bhSharpe": 0.6604939944582008,
+  "cagr": 0.12765212591521902,
+  "sharpe": 0.8184331301821921,
+  "pass": true
+ },
+ "cost2x": {
+  "ok": true,
+  "excess": 0.05681336398984271,
+  "cagr": 0.12612844436295778,
+  "sharpe": 0.8101247344023758,
+  "maxDD": 0.41666572830581594,
+  "bhCagr": 0.06931508037311507,
+  "bhSharpe": 0.6604939944582008,
+  "trades": 105,
+  "exposure": 0.9962605786262547,
+  "n": 2
+ },
+ "attribution": [
+  {
+   "symbol": "QQQ",
+   "contrib": 1.1842598463852645
+  },
+  {
+   "symbol": "AGG",
+   "contrib": 0.03436060257507051
+  }
+ ],
+ "drop": {
+  "rule": "leave-one-out",
+  "runs": [
+   {
+    "dropped": "QQQ",
+    "ok": false,
+    "err": "r25-qqq-agg-volmanaged: only 1 trade(s) across 1 asset(s) (minimum 5). The signal (almost) never fired, which is an implementation bug, not a result, and nothing was recorded. Check your signal: ctx.s"
+   },
+   {
+    "dropped": "AGG",
+    "ok": false,
+    "err": "r25-qqq-agg-volmanaged: only 1 trade(s) across 1 asset(s) (minimum 5). The signal (almost) never fired, which is an implementation bug, not a result, and nothing was recorded. Check your signal: ctx.s"
+   }
+  ]
+ }
+}

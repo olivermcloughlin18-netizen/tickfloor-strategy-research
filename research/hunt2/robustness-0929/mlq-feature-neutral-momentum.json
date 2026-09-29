@@ -1,0 +1,119 @@
+{
+ "id": "mlq-feature-neutral-momentum",
+ "family": "momentum",
+ "mode": "portfolio",
+ "assets": [
+  "BTCUSDT",
+  "BNBUSDT",
+  "XRPUSDT",
+  "ADAUSDT",
+  "DOGEUSDT",
+  "LTCUSDT",
+  "LINKUSDT",
+  "TRXUSDT",
+  "BCHUSDT",
+  "ATOMUSDT",
+  "ETCUSDT",
+  "DASHUSDT",
+  "ZECUSDT",
+  "AVAXUSDT",
+  "UNIUSDT",
+  "NEARUSDT",
+  "AAVEUSDT",
+  "HBARUSDT"
+ ],
+ "ledgered": {
+  "excess": 0.2919749064823225,
+  "cagr": 0.9196167438232956,
+  "sharpe": 1.2010934188622946,
+  "maxDD": 0.7872535998465696,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 585,
+  "rebalances": 2377,
+  "exposure": 0.8593637020968908,
+  "halves": [
+   0.2517611406283926,
+   0.2735526700127704
+  ]
+ },
+ "baseline": {
+  "ok": true,
+  "excess": 0.2919749064823225,
+  "cagr": 0.9196167438232956,
+  "sharpe": 1.2010934188622946,
+  "maxDD": 0.7872535998465696,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 585,
+  "exposure": 0.8593637020968908,
+  "n": 18
+ },
+ "replicaMatch": true,
+ "stats": {
+  "meanNames": 3.3474968447623055,
+  "meanGross": 1,
+  "invested": 2377,
+  "events": 2766
+ },
+ "exposureCheck": {
+  "e": 0.8593637020968908,
+  "scaledBhCagr": 0.5933351025858269,
+  "bhSharpe": 1.0041904543620792,
+  "cagr": 0.9196167438232956,
+  "sharpe": 1.2010934188622946,
+  "pass": true
+ },
+ "cost2x": {
+  "ok": true,
+  "excess": 0.18565857674230313,
+  "cagr": 0.8133004140832762,
+  "sharpe": 1.132410171194878,
+  "maxDD": 0.7972742492671823,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 585,
+  "exposure": 0.8593637020968908,
+  "n": 18
+ },
+ "attribution": [
+  {
+   "symbol": "ADAUSDT",
+   "contrib": 0.6538909417730071
+  },
+  {
+   "symbol": "AVAXUSDT",
+   "contrib": 0.45399272824983783
+  },
+  {
+   "symbol": "AAVEUSDT",
+   "contrib": 0.3403799926567816
+  },
+  {
+   "symbol": "DOGEUSDT",
+   "contrib": 0.33686129760041555
+  },
+  {
+   "symbol": "XRPUSDT",
+   "contrib": 0.27982699194943933
+  }
+ ],
+ "drop": {
+  "rule": "top contributor",
+  "runs": [
+   {
+    "dropped": "ADAUSDT",
+    "ok": true,
+    "excess": 0.08202104914207053,
+    "cagr": 0.728228075124171,
+    "sharpe": 1.0686231111274085,
+    "maxDD": 0.7924577450752107,
+    "bhCagr": 0.6462070259821004,
+    "bhSharpe": 1.0181972423549206,
+    "trades": 480,
+    "exposure": 0.8590021691973969,
+    "n": 17
+   }
+  ]
+ }
+}

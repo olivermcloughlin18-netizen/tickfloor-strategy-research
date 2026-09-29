@@ -1,0 +1,88 @@
+{
+ "id": "r25-qqq-agg-dualmom",
+ "family": "trend",
+ "mode": "portfolio",
+ "assets": [
+  "QQQ",
+  "AGG"
+ ],
+ "ledgered": {
+  "excess": 0.03843216006946437,
+  "cagr": 0.10774724044257944,
+  "sharpe": 0.6618466465478501,
+  "maxDD": 0.3047098862437031,
+  "bhCagr": 0.06931508037311507,
+  "bhSharpe": 0.6604939944582008,
+  "trades": 22,
+  "rebalances": 242,
+  "exposure": 0.9962605786262547,
+  "halves": [
+   0.034207827979756855,
+   0.042734306796151644
+  ]
+ },
+ "baseline": {
+  "ok": true,
+  "excess": 0.03843216006946437,
+  "cagr": 0.10774724044257944,
+  "sharpe": 0.6618466465478501,
+  "maxDD": 0.3047098862437031,
+  "bhCagr": 0.06931508037311507,
+  "bhSharpe": 0.6604939944582008,
+  "trades": 22,
+  "exposure": 0.9962605786262547,
+  "n": 2
+ },
+ "replicaMatch": true,
+ "stats": {
+  "meanNames": 1.0495867768595042,
+  "meanGross": 1,
+  "invested": 242,
+  "events": 242
+ },
+ "exposureCheck": {
+  "e": 0.9962605786262547,
+  "scaledBhCagr": 0.06907160612877483,
+  "bhSharpe": 0.6604939944582008,
+  "cagr": 0.10774724044257944,
+  "sharpe": 0.6618466465478501,
+  "pass": true
+ },
+ "cost2x": {
+  "ok": true,
+  "excess": 0.037251553957535544,
+  "cagr": 0.10656663433065061,
+  "sharpe": 0.6558615162617851,
+  "maxDD": 0.30818285688546976,
+  "bhCagr": 0.06931508037311507,
+  "bhSharpe": 0.6604939944582008,
+  "trades": 22,
+  "exposure": 0.9962605786262547,
+  "n": 2
+ },
+ "attribution": [
+  {
+   "symbol": "QQQ",
+   "contrib": 0.8705496511897913
+  },
+  {
+   "symbol": "AGG",
+   "contrib": 0.042941653692803505
+  }
+ ],
+ "drop": {
+  "rule": "leave-one-out",
+  "runs": [
+   {
+    "dropped": "QQQ",
+    "ok": false,
+    "err": "r25-qqq-agg-dualmom: only 1 trade(s) across 1 asset(s) (minimum 5). The signal (almost) never fired, which is an implementation bug, not a result, and nothing was recorded. Check your signal: ctx.stat"
+   },
+   {
+    "dropped": "AGG",
+    "ok": false,
+    "err": "r25-qqq-agg-dualmom: only 1 trade(s) across 1 asset(s) (minimum 5). The signal (almost) never fired, which is an implementation bug, not a result, and nothing was recorded. Check your signal: ctx.stat"
+   }
+  ]
+ }
+}

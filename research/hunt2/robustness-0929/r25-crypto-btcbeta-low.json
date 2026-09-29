@@ -1,0 +1,119 @@
+{
+ "id": "r25-crypto-btcbeta-low",
+ "family": "equity-factors",
+ "mode": "portfolio",
+ "assets": [
+  "BTCUSDT",
+  "BNBUSDT",
+  "XRPUSDT",
+  "ADAUSDT",
+  "DOGEUSDT",
+  "LTCUSDT",
+  "LINKUSDT",
+  "TRXUSDT",
+  "BCHUSDT",
+  "ATOMUSDT",
+  "ETCUSDT",
+  "DASHUSDT",
+  "ZECUSDT",
+  "AVAXUSDT",
+  "UNIUSDT",
+  "NEARUSDT",
+  "AAVEUSDT",
+  "HBARUSDT"
+ ],
+ "ledgered": {
+  "excess": 0.3892319263102655,
+  "cagr": 1.0168737636512386,
+  "sharpe": 1.240516312207454,
+  "maxDD": 0.8665534317929815,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 68,
+  "rebalances": 91,
+  "exposure": 0.9949385394070861,
+  "halves": [
+   0.311727410441911,
+   0.3785681966805252
+  ]
+ },
+ "baseline": {
+  "ok": true,
+  "excess": 0.3892319263102655,
+  "cagr": 1.0168737636512386,
+  "sharpe": 1.240516312207454,
+  "maxDD": 0.8665534317929815,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 68,
+  "exposure": 0.9949385394070861,
+  "n": 18
+ },
+ "replicaMatch": true,
+ "stats": {
+  "meanNames": 6.571428571428571,
+  "meanGross": 1,
+  "invested": 91,
+  "events": 91
+ },
+ "exposureCheck": {
+  "e": 0.9949385394070861,
+  "scaledBhCagr": 0.6268495709913506,
+  "bhSharpe": 1.0041904543620792,
+  "cagr": 1.0168737636512386,
+  "sharpe": 1.240516312207454,
+  "pass": true
+ },
+ "cost2x": {
+  "ok": true,
+  "excess": 0.37926972704882145,
+  "cagr": 1.0069115643897946,
+  "sharpe": 1.2348085491677354,
+  "maxDD": 0.8667769334012162,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 68,
+  "exposure": 0.9949385394070861,
+  "n": 18
+ },
+ "attribution": [
+  {
+   "symbol": "XRPUSDT",
+   "contrib": 0.477349640150217
+  },
+  {
+   "symbol": "BTCUSDT",
+   "contrib": 0.38938993498556257
+  },
+  {
+   "symbol": "BNBUSDT",
+   "contrib": 0.3648926469882155
+  },
+  {
+   "symbol": "DOGEUSDT",
+   "contrib": 0.33200658798335725
+  },
+  {
+   "symbol": "AVAXUSDT",
+   "contrib": 0.25542930416843573
+  }
+ ],
+ "drop": {
+  "rule": "top contributor",
+  "runs": [
+   {
+    "dropped": "XRPUSDT",
+    "ok": true,
+    "excess": 0.2636815111609685,
+    "cagr": 0.8868504567580813,
+    "sharpe": 1.1637129859918218,
+    "maxDD": 0.8799921873716683,
+    "bhCagr": 0.6231689455971128,
+    "bhSharpe": 1.0008219961741507,
+    "trades": 69,
+    "exposure": 0.9949385394070861,
+    "n": 17
+   }
+  ]
+ }
+}

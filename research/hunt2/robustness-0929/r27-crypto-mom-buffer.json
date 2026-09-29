@@ -1,0 +1,119 @@
+{
+ "id": "r27-crypto-mom-buffer",
+ "family": "momentum",
+ "mode": "portfolio",
+ "assets": [
+  "BTCUSDT",
+  "BNBUSDT",
+  "XRPUSDT",
+  "ADAUSDT",
+  "DOGEUSDT",
+  "LTCUSDT",
+  "LINKUSDT",
+  "TRXUSDT",
+  "BCHUSDT",
+  "ATOMUSDT",
+  "ETCUSDT",
+  "DASHUSDT",
+  "ZECUSDT",
+  "AVAXUSDT",
+  "UNIUSDT",
+  "NEARUSDT",
+  "AAVEUSDT",
+  "HBARUSDT"
+ ],
+ "ledgered": {
+  "excess": 0.315992411905339,
+  "cagr": 0.9436342492463121,
+  "sharpe": 1.1830088799715275,
+  "maxDD": 0.8591352381847478,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 242,
+  "rebalances": 395,
+  "exposure": 0.9989154013015185,
+  "halves": [
+   0.9867188747444344,
+   0.0337994804330819
+  ]
+ },
+ "baseline": {
+  "ok": true,
+  "excess": 0.315992411905339,
+  "cagr": 0.9436342492463121,
+  "sharpe": 1.1830088799715275,
+  "maxDD": 0.8591352381847478,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 242,
+  "exposure": 0.9989154013015185,
+  "n": 18
+ },
+ "replicaMatch": true,
+ "stats": {
+  "meanNames": 4.643037974683544,
+  "meanGross": 1,
+  "invested": 395,
+  "events": 395
+ },
+ "exposureCheck": {
+  "e": 0.9989154013015185,
+  "scaledBhCagr": 0.6274749212137101,
+  "bhSharpe": 1.0041904543620792,
+  "cagr": 0.9436342492463121,
+  "sharpe": 1.1830088799715275,
+  "pass": true
+ },
+ "cost2x": {
+  "ok": true,
+  "excess": 0.26908811674712974,
+  "cagr": 0.8967299540881029,
+  "sharpe": 1.156848910552969,
+  "maxDD": 0.8593711640780268,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 242,
+  "exposure": 0.9989154013015185,
+  "n": 18
+ },
+ "attribution": [
+  {
+   "symbol": "AVAXUSDT",
+   "contrib": 0.7045739710463829
+  },
+  {
+   "symbol": "BTCUSDT",
+   "contrib": 0.4820576939173955
+  },
+  {
+   "symbol": "XRPUSDT",
+   "contrib": 0.40531978124309703
+  },
+  {
+   "symbol": "LINKUSDT",
+   "contrib": 0.290842147647697
+  },
+  {
+   "symbol": "HBARUSDT",
+   "contrib": 0.23583633065388376
+  }
+ ],
+ "drop": {
+  "rule": "top contributor",
+  "runs": [
+   {
+    "dropped": "AVAXUSDT",
+    "ok": true,
+    "excess": 0.22769316255783045,
+    "cagr": 0.8516568431385316,
+    "sharpe": 1.1326303051397522,
+    "maxDD": 0.8762618044573425,
+    "bhCagr": 0.6239636805807012,
+    "bhSharpe": 1.0017920830373694,
+    "trades": 239,
+    "exposure": 0.9989154013015185,
+    "n": 17
+   }
+  ]
+ }
+}

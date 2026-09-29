@@ -1,0 +1,114 @@
+{
+ "id": "s29-etf-dynamic-hedge-selection",
+ "family": "other",
+ "mode": "portfolio",
+ "assets": [
+  "QQQ",
+  "TLT",
+  "IEF",
+  "SHY",
+  "AGG",
+  "LQD",
+  "GLD",
+  "UUP"
+ ],
+ "ledgered": {
+  "excess": 0.037573253285823505,
+  "cagr": 0.0931250349733228,
+  "sharpe": 0.7465038256652179,
+  "maxDD": 0.40529574773802557,
+  "bhCagr": 0.0555517816874993,
+  "bhSharpe": 0.6913186902297694,
+  "trades": 56,
+  "rebalances": 239,
+  "exposure": 0.98405825624877,
+  "halves": [
+   -0.007858229807679251,
+   0.08261615744356288
+  ]
+ },
+ "baseline": {
+  "ok": true,
+  "excess": 0.037573253285823505,
+  "cagr": 0.0931250349733228,
+  "sharpe": 0.7465038256652179,
+  "maxDD": 0.40529574773802557,
+  "bhCagr": 0.0555517816874993,
+  "bhSharpe": 0.6913186902297694,
+  "trades": 56,
+  "exposure": 0.98405825624877,
+  "n": 8
+ },
+ "replicaMatch": true,
+ "stats": {
+  "meanNames": 2,
+  "meanGross": 1,
+  "invested": 239,
+  "events": 242
+ },
+ "exposureCheck": {
+  "e": 0.98405825624877,
+  "scaledBhCagr": 0.054699826680427055,
+  "bhSharpe": 0.6913186902297694,
+  "cagr": 0.0931250349733228,
+  "sharpe": 0.7465038256652179,
+  "pass": true
+ },
+ "cost2x": {
+  "ok": true,
+  "excess": 0.03632805504782022,
+  "cagr": 0.09187983673531952,
+  "sharpe": 0.7377740923842031,
+  "maxDD": 0.4055337246296862,
+  "bhCagr": 0.0555517816874993,
+  "bhSharpe": 0.6913186902297694,
+  "trades": 56,
+  "exposure": 0.98405825624877,
+  "n": 8
+ },
+ "attribution": [
+  {
+   "symbol": "QQQ",
+   "contrib": 1.202189888096705
+  },
+  {
+   "symbol": "IEF",
+   "contrib": 0.05859062365074513
+  },
+  {
+   "symbol": "UUP",
+   "contrib": 0.016900481912478754
+  },
+  {
+   "symbol": "LQD",
+   "contrib": 0.01042592747894043
+  },
+  {
+   "symbol": "SHY",
+   "contrib": 0.001452259436214201
+  }
+ ],
+ "drop": {
+  "rule": "top contributor",
+  "runs": [
+   {
+    "dropped": "QQQ",
+    "ok": false,
+    "err": "s29-etf-dynamic-hedge-selection: only 0 trade(s) across 7 asset(s) (minimum 5). The signal (almost) never fired, which is an implementation bug, not a result, and nothing was recorded. Check your sign"
+   },
+   {
+    "dropped": "IEF",
+    "ok": true,
+    "excess": 0.0347889693330834,
+    "cagr": 0.09322351200978485,
+    "sharpe": 0.7502600982524971,
+    "maxDD": 0.40529574773802557,
+    "bhCagr": 0.05843454267670145,
+    "bhSharpe": 0.7208412913701341,
+    "trades": 46,
+    "exposure": 0.98405825624877,
+    "n": 7
+   }
+  ]
+ }
+}

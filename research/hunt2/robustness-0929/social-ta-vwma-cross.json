@@ -1,0 +1,117 @@
+{
+ "id": "social-ta-vwma-cross",
+ "family": "momentum",
+ "mode": "signal",
+ "assets": [
+  "BTCUSDT",
+  "BNBUSDT",
+  "XRPUSDT",
+  "ADAUSDT",
+  "DOGEUSDT",
+  "LTCUSDT",
+  "LINKUSDT",
+  "TRXUSDT",
+  "BCHUSDT",
+  "ATOMUSDT",
+  "ETCUSDT",
+  "DASHUSDT",
+  "ZECUSDT",
+  "AVAXUSDT",
+  "UNIUSDT",
+  "NEARUSDT",
+  "AAVEUSDT",
+  "HBARUSDT"
+ ],
+ "ledgered": {
+  "excess": 0.23226532619231954,
+  "cagr": 0.8599071635332927,
+  "sharpe": 1.5244398597337303,
+  "maxDD": 0.4900448147480566,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 2248,
+  "rebalances": 0,
+  "exposure": 0.4572758252377804,
+  "halves": [
+   0.3043461898475921,
+   0.17222735881450446
+  ]
+ },
+ "baseline": {
+  "ok": true,
+  "excess": 0.23226532619231954,
+  "cagr": 0.8599071635332927,
+  "sharpe": 1.5244398597337303,
+  "maxDD": 0.4900448147480566,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 2248,
+  "exposure": 0.4572758252377804,
+  "n": 18
+ },
+ "replicaMatch": true,
+ "stats": {
+  "totalBars": 39322,
+  "avgHold": 7.9986654804270465
+ },
+ "exposureCheck": {
+  "e": 0.4572758252377804,
+  "scaledBhCagr": 0.3748607896109415,
+  "bhSharpe": 1.0041904543620792,
+  "cagr": 0.8599071635332927,
+  "sharpe": 1.5244398597337303,
+  "pass": true
+ },
+ "cost2x": {
+  "ok": true,
+  "excess": 0.14613989695642227,
+  "cagr": 0.7737817342973954,
+  "sharpe": 1.4260607755528858,
+  "maxDD": 0.5112405848292293,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 2248,
+  "exposure": 0.4572758252377804,
+  "n": 18
+ },
+ "attribution": [
+  {
+   "symbol": "LTCUSDT",
+   "contrib": 0.2008487600604739
+  },
+  {
+   "symbol": "ADAUSDT",
+   "contrib": 0.07628788631307604
+  },
+  {
+   "symbol": "AVAXUSDT",
+   "contrib": 0.06710157341682715
+  },
+  {
+   "symbol": "ETCUSDT",
+   "contrib": 0.018356167897407242
+  },
+  {
+   "symbol": "DASHUSDT",
+   "contrib": 0.011537381860237624
+  }
+ ],
+ "drop": {
+  "rule": "top contributor",
+  "runs": [
+   {
+    "dropped": "LTCUSDT",
+    "ok": true,
+    "excess": 0.17700992904154234,
+    "cagr": 0.9214075806808091,
+    "sharpe": 1.518280921590486,
+    "maxDD": 0.5698341654569006,
+    "bhCagr": 0.7443976516392667,
+    "bhSharpe": 1.0781307780419742,
+    "trades": 2094,
+    "exposure": 0.4569722419152533,
+    "n": 17
+   }
+  ]
+ }
+}

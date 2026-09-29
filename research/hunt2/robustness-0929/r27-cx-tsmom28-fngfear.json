@@ -1,0 +1,117 @@
+{
+ "id": "r27-cx-tsmom28-fngfear",
+ "family": "sentiment",
+ "mode": "signal",
+ "assets": [
+  "BTCUSDT",
+  "BNBUSDT",
+  "XRPUSDT",
+  "ADAUSDT",
+  "DOGEUSDT",
+  "LTCUSDT",
+  "LINKUSDT",
+  "TRXUSDT",
+  "BCHUSDT",
+  "ATOMUSDT",
+  "ETCUSDT",
+  "DASHUSDT",
+  "ZECUSDT",
+  "AVAXUSDT",
+  "UNIUSDT",
+  "NEARUSDT",
+  "AAVEUSDT",
+  "HBARUSDT"
+ ],
+ "ledgered": {
+  "excess": 0.40585127713382896,
+  "cagr": 1.033493114474802,
+  "sharpe": 1.3810385971627874,
+  "maxDD": 0.6168681804031827,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 1197,
+  "rebalances": 0,
+  "exposure": 0.6589949646508316,
+  "halves": [
+   1.067468174684639,
+   0.1081282121828917
+  ]
+ },
+ "baseline": {
+  "ok": true,
+  "excess": 0.40585127713382896,
+  "cagr": 1.033493114474802,
+  "sharpe": 1.3810385971627874,
+  "maxDD": 0.6168681804031827,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 1197,
+  "exposure": 0.6589949646508316,
+  "n": 18
+ },
+ "replicaMatch": true,
+ "stats": {
+  "totalBars": 39322,
+  "avgHold": 21.64828738512949
+ },
+ "exposureCheck": {
+  "e": 0.6589949646508316,
+  "scaledBhCagr": 0.5040017116219073,
+  "bhSharpe": 1.0041904543620792,
+  "cagr": 1.033493114474802,
+  "sharpe": 1.3810385971627874,
+  "pass": true
+ },
+ "cost2x": {
+  "ok": true,
+  "excess": 0.35582021228942984,
+  "cagr": 0.983462049630403,
+  "sharpe": 1.344510728873125,
+  "maxDD": 0.618262931714374,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 1197,
+  "exposure": 0.6589949646508316,
+  "n": 18
+ },
+ "attribution": [
+  {
+   "symbol": "ADAUSDT",
+   "contrib": 0.28954399058551883
+  },
+  {
+   "symbol": "LTCUSDT",
+   "contrib": 0.20151501470572794
+  },
+  {
+   "symbol": "ETCUSDT",
+   "contrib": 0.17428693278401627
+  },
+  {
+   "symbol": "TRXUSDT",
+   "contrib": 0.10842976279923232
+  },
+  {
+   "symbol": "DASHUSDT",
+   "contrib": 0.0824804315543893
+  }
+ ],
+ "drop": {
+  "rule": "top contributor",
+  "runs": [
+   {
+    "dropped": "ADAUSDT",
+    "ok": true,
+    "excess": 0.3509678661776938,
+    "cagr": 0.9971748921597943,
+    "sharpe": 1.3564358948327433,
+    "maxDD": 0.6294940979744608,
+    "bhCagr": 0.6462070259821004,
+    "bhSharpe": 1.0181972423549206,
+    "trades": 1136,
+    "exposure": 0.661974510176907,
+    "n": 17
+   }
+  ]
+ }
+}

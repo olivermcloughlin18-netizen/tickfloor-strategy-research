@@ -1,0 +1,126 @@
+{
+ "id": "macro-hy-credit-spread-risk-off",
+ "family": "macro-intermarket",
+ "mode": "portfolio",
+ "assets": [
+  "QQQ",
+  "DIA",
+  "XLK",
+  "XLF",
+  "XLE",
+  "XLV",
+  "XLI",
+  "XLP",
+  "XLY",
+  "XLU",
+  "XLB",
+  "XLC",
+  "VNQ",
+  "TLT",
+  "IEF",
+  "SHY",
+  "LQD",
+  "HYG",
+  "AGG",
+  "GLD",
+  "SLV",
+  "USO",
+  "UNG",
+  "DBC",
+  "UUP"
+ ],
+ "ledgered": {
+  "excess": 0.04704996024810337,
+  "cagr": 0.11672964193883484,
+  "sharpe": 0.6502369977266418,
+  "maxDD": 0.5355260766854445,
+  "bhCagr": 0.06967968169073147,
+  "bhSharpe": 0.696911245411367,
+  "trades": 9,
+  "rebalances": 1053,
+  "exposure": 0.9992127533950009,
+  "halves": [
+   0.02086304031281294,
+   0.07322588510810601
+  ]
+ },
+ "baseline": {
+  "ok": true,
+  "excess": 0.04704630452253511,
+  "cagr": 0.11672964193883484,
+  "sharpe": 0.6502369977266418,
+  "maxDD": 0.5355260766854445,
+  "bhCagr": 0.06968333741629973,
+  "bhSharpe": 0.6969468733431813,
+  "trades": 9,
+  "exposure": 0.9992127533950009,
+  "n": 25
+ },
+ "replicaMatch": true,
+ "stats": {
+  "meanNames": 1.415954415954416,
+  "meanGross": 1,
+  "invested": 1053,
+  "events": 1053
+ },
+ "exposureCheck": {
+  "e": 0.9992127533950009,
+  "scaledBhCagr": 0.06963124122574582,
+  "bhSharpe": 0.6969468733431813,
+  "cagr": 0.11672964193883484,
+  "sharpe": 0.6502369977266418,
+  "pass": false
+ },
+ "cost2x": {
+  "ok": true,
+  "excess": 0.04657565451363599,
+  "cagr": 0.11625899192993572,
+  "sharpe": 0.6481286355920708,
+  "maxDD": 0.5355260766854449,
+  "bhCagr": 0.06968333741629973,
+  "bhSharpe": 0.6969468733431813,
+  "trades": 9,
+  "exposure": 0.9992127533950009,
+  "n": 25
+ },
+ "attribution": [
+  {
+   "symbol": "QQQ",
+   "contrib": 1.6362074274941867
+  },
+  {
+   "symbol": "DIA",
+   "contrib": 0.43818930512015747
+  },
+  {
+   "symbol": "UNG",
+   "contrib": 0.023308379969525336
+  },
+  {
+   "symbol": "TLT",
+   "contrib": 0.012055861026626048
+  },
+  {
+   "symbol": "IEF",
+   "contrib": 0.005765606838873615
+  }
+ ],
+ "drop": {
+  "rule": "top contributor",
+  "runs": [
+   {
+    "dropped": "QQQ",
+    "ok": true,
+    "excess": -0.013777449255829355,
+    "cagr": 0.04218140204775844,
+    "sharpe": 0.41538581340906994,
+    "maxDD": 0.37058704179629387,
+    "bhCagr": 0.0559588513035878,
+    "bhSharpe": 0.559814148399989,
+    "trades": 8,
+    "exposure": 0.419996063766975,
+    "n": 24
+   }
+  ]
+ }
+}

@@ -1,0 +1,124 @@
+{
+ "id": "s29-cx-fng-cond-mom",
+ "family": "momentum",
+ "mode": "portfolio",
+ "assets": [
+  "BTCUSDT",
+  "BNBUSDT",
+  "XRPUSDT",
+  "ADAUSDT",
+  "DOGEUSDT",
+  "LTCUSDT",
+  "LINKUSDT",
+  "TRXUSDT",
+  "BCHUSDT",
+  "ATOMUSDT",
+  "ETCUSDT",
+  "DASHUSDT",
+  "ZECUSDT",
+  "AVAXUSDT",
+  "UNIUSDT",
+  "NEARUSDT",
+  "AAVEUSDT",
+  "HBARUSDT"
+ ],
+ "ledgered": {
+  "excess": 0.39461874139143394,
+  "cagr": 1.022260578732407,
+  "sharpe": 1.254693692558741,
+  "maxDD": 0.8240751470486007,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 186,
+  "rebalances": 393,
+  "exposure": 0.9925885755603759,
+  "halves": [
+   0.8489975904469316,
+   0.1665320945304276
+  ]
+ },
+ "baseline": {
+  "ok": true,
+  "excess": 0.39461874139143394,
+  "cagr": 1.022260578732407,
+  "sharpe": 1.254693692558741,
+  "maxDD": 0.8240751470486007,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 186,
+  "exposure": 0.9925885755603759,
+  "n": 18
+ },
+ "replicaMatch": true,
+ "stats": {
+  "meanNames": 5.027989821882952,
+  "meanGross": 0.9987277353689568,
+  "invested": 393,
+  "events": 395
+ },
+ "exposureCheck": {
+  "e": 0.9925885755603759,
+  "scaledBhCagr": 0.6264702159896449,
+  "bhSharpe": 1.0041904543620792,
+  "cagr": 1.022260578732407,
+  "sharpe": 1.254693692558741,
+  "pass": true
+ },
+ "cost2x": {
+  "ok": true,
+  "excess": 0.32103654441352814,
+  "cagr": 0.9486783817545013,
+  "sharpe": 1.2109880866937404,
+  "maxDD": 0.8271397999627669,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 186,
+  "exposure": 0.9925885755603759,
+  "n": 18
+ },
+ "attribution": [
+  {
+   "symbol": "BTCUSDT",
+   "contrib": 0.7265338067519824
+  },
+  {
+   "symbol": "HBARUSDT",
+   "contrib": 0.5091233081698547
+  },
+  {
+   "symbol": "XRPUSDT",
+   "contrib": 0.4967864629139376
+  },
+  {
+   "symbol": "AVAXUSDT",
+   "contrib": 0.33842001679834366
+  },
+  {
+   "symbol": "ADAUSDT",
+   "contrib": 0.2960554263134045
+  }
+ ],
+ "drop": {
+  "rule": "top contributor",
+  "runs": [
+   {
+    "dropped": "BTCUSDT",
+    "ok": false,
+    "err": "s29-cx-fng-cond-mom: weight for BTCUSDT, which has no bar on 2018-02-04"
+   },
+   {
+    "dropped": "HBARUSDT",
+    "ok": true,
+    "excess": 0.2740528281804293,
+    "cagr": 0.886675229543616,
+    "sharpe": 1.1761971624645304,
+    "maxDD": 0.8240751470486007,
+    "bhCagr": 0.6126224013631867,
+    "bhSharpe": 0.9931056093698071,
+    "trades": 186,
+    "exposure": 0.9925885755603759,
+    "n": 17
+   }
+  ]
+ }
+}

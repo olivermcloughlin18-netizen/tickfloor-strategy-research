@@ -1,0 +1,141 @@
+{
+ "id": "s29-us-vix-beta",
+ "family": "volatility",
+ "mode": "portfolio",
+ "assets": [
+  "AAPL",
+  "NVDA",
+  "AMZN",
+  "GOOGL",
+  "META",
+  "TSLA",
+  "JPM",
+  "V",
+  "UNH",
+  "XOM",
+  "JNJ",
+  "COST",
+  "ABBV",
+  "MRK",
+  "AVGO",
+  "CVX",
+  "WMT",
+  "BAC",
+  "ORCL",
+  "ADBE",
+  "CRM",
+  "NFLX",
+  "AMD",
+  "INTC",
+  "ABT",
+  "MCD",
+  "DIS",
+  "QCOM",
+  "TXN",
+  "HON",
+  "CAT",
+  "LOW",
+  "SBUX",
+  "BA",
+  "UPS",
+  "PFE",
+  "T",
+  "MDT",
+  "UNP",
+  "MMM"
+ ],
+ "ledgered": {
+  "excess": 0.06235983059839323,
+  "cagr": 0.24226568842351104,
+  "sharpe": 0.8595503069692256,
+  "maxDD": 0.462230788395145,
+  "bhCagr": 0.1799058578251178,
+  "bhSharpe": 0.9632707771256639,
+  "trades": 48,
+  "rebalances": 1872,
+  "exposure": 0.8764044943820225,
+  "halves": [
+   -0.019833861505087036,
+   0.14086326185836895
+  ]
+ },
+ "baseline": {
+  "ok": true,
+  "excess": 0.06235983059839323,
+  "cagr": 0.24226568842351104,
+  "sharpe": 0.8595503069692256,
+  "maxDD": 0.462230788395145,
+  "bhCagr": 0.1799058578251178,
+  "bhSharpe": 0.9632707771256639,
+  "trades": 48,
+  "exposure": 0.8764044943820225,
+  "n": 40
+ },
+ "replicaMatch": true,
+ "stats": {
+  "meanNames": 8,
+  "meanGross": 1,
+  "invested": 1872,
+  "events": 2136
+ },
+ "exposureCheck": {
+  "e": 0.8764044943820225,
+  "scaledBhCagr": 0.15833441666616244,
+  "bhSharpe": 0.9632707771256639,
+  "cagr": 0.24226568842351104,
+  "sharpe": 0.8595503069692256,
+  "pass": false
+ },
+ "cost2x": {
+  "ok": true,
+  "excess": 0.0611537000360749,
+  "cagr": 0.2410595578611927,
+  "sharpe": 0.8564065700763901,
+  "maxDD": 0.4627012440188645,
+  "bhCagr": 0.1799058578251178,
+  "bhSharpe": 0.9632707771256639,
+  "trades": 48,
+  "exposure": 0.8764044943820225,
+  "n": 40
+ },
+ "attribution": [
+  {
+   "symbol": "NVDA",
+   "contrib": 0.3988058344187624
+  },
+  {
+   "symbol": "AMD",
+   "contrib": 0.2765749469844931
+  },
+  {
+   "symbol": "AVGO",
+   "contrib": 0.15702526834789302
+  },
+  {
+   "symbol": "NFLX",
+   "contrib": 0.11395154244819816
+  },
+  {
+   "symbol": "ADBE",
+   "contrib": 0.10310993650068946
+  }
+ ],
+ "drop": {
+  "rule": "top contributor",
+  "runs": [
+   {
+    "dropped": "NVDA",
+    "ok": true,
+    "excess": 0.03141754708659894,
+    "cagr": 0.19818815817007662,
+    "sharpe": 0.7732042866713753,
+    "maxDD": 0.43534560122752664,
+    "bhCagr": 0.16677061108347768,
+    "bhSharpe": 0.918911768281376,
+    "trades": 52,
+    "exposure": 0.8764044943820225,
+    "n": 39
+   }
+  ]
+ }
+}

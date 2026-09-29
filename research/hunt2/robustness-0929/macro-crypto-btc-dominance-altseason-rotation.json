@@ -1,0 +1,124 @@
+{
+ "id": "macro-crypto-btc-dominance-altseason-rotation",
+ "family": "macro-intermarket",
+ "mode": "portfolio",
+ "assets": [
+  "BTCUSDT",
+  "BNBUSDT",
+  "XRPUSDT",
+  "ADAUSDT",
+  "DOGEUSDT",
+  "LTCUSDT",
+  "LINKUSDT",
+  "TRXUSDT",
+  "BCHUSDT",
+  "ATOMUSDT",
+  "ETCUSDT",
+  "DASHUSDT",
+  "ZECUSDT",
+  "AVAXUSDT",
+  "UNIUSDT",
+  "NEARUSDT",
+  "AAVEUSDT",
+  "HBARUSDT"
+ ],
+ "ledgered": {
+  "excess": 0.13163682363647045,
+  "cagr": 0.7592786609774436,
+  "sharpe": 1.0937794437641968,
+  "maxDD": 0.8773777356864886,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 203,
+  "rebalances": 395,
+  "exposure": 0.9989154013015185,
+  "halves": [
+   -0.21380441248590376,
+   0.2789433543684343
+  ]
+ },
+ "baseline": {
+  "ok": true,
+  "excess": 0.13163682363647045,
+  "cagr": 0.7592786609774436,
+  "sharpe": 1.0937794437641968,
+  "maxDD": 0.8773777356864886,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 203,
+  "exposure": 0.9989154013015185,
+  "n": 18
+ },
+ "replicaMatch": true,
+ "stats": {
+  "meanNames": 2.329113924050633,
+  "meanGross": 1,
+  "invested": 395,
+  "events": 395
+ },
+ "exposureCheck": {
+  "e": 0.9989154013015185,
+  "scaledBhCagr": 0.6274749212137101,
+  "bhSharpe": 1.0041904543620792,
+  "cagr": 0.7592786609774436,
+  "sharpe": 1.0937794437641968,
+  "pass": true
+ },
+ "cost2x": {
+  "ok": true,
+  "excess": 0.05766464529626414,
+  "cagr": 0.6853064826372373,
+  "sharpe": 1.0428646499728362,
+  "maxDD": 0.8815885639912129,
+  "bhCagr": 0.6276418373409731,
+  "bhSharpe": 1.0041904543620792,
+  "trades": 203,
+  "exposure": 0.9989154013015185,
+  "n": 18
+ },
+ "attribution": [
+  {
+   "symbol": "BTCUSDT",
+   "contrib": 2.439145074537312
+  },
+  {
+   "symbol": "AVAXUSDT",
+   "contrib": 0.29601476415933725
+  },
+  {
+   "symbol": "HBARUSDT",
+   "contrib": 0.1731278081037423
+  },
+  {
+   "symbol": "NEARUSDT",
+   "contrib": 0.14692676809052457
+  },
+  {
+   "symbol": "ETCUSDT",
+   "contrib": 0.12467713938661498
+  }
+ ],
+ "drop": {
+  "rule": "top contributor",
+  "runs": [
+   {
+    "dropped": "BTCUSDT",
+    "ok": false,
+    "err": "macro-crypto-btc-dominance-altseason-rotation: only 0 trade(s) across 17 asset(s) (minimum 5). The signal (almost) never fired, which is an implementation bug, not a result, and nothing was recorded. "
+   },
+   {
+    "dropped": "AVAXUSDT",
+    "ok": true,
+    "excess": 0.01716365875061454,
+    "cagr": 0.6411273393313157,
+    "sharpe": 1.0138242973283984,
+    "maxDD": 0.8773777356864886,
+    "bhCagr": 0.6239636805807012,
+    "bhSharpe": 1.0017920830373694,
+    "trades": 205,
+    "exposure": 0.9989154013015185,
+    "n": 17
+   }
+  ]
+ }
+}
